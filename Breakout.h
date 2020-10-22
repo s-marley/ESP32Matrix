@@ -253,19 +253,19 @@ class Breakout {
       
       switch (levelNo){
         case 1:
-          Blocks[i].Setup(blockWidth, blockHeight, blockData, 7, _3BIT, blockColors1, blockMask);
+          Blocks[i].Setup(blockWidth, blockHeight, blockData, 5, _3BIT, blockColors1, blockMask);
           ballRate = 15;    // Lower is faster
           plasmaLowHue = 100;
           plasmaHighHue = 150;
           break;
         case 2:
-          Blocks[i].Setup(blockWidth, blockHeight, blockData, 7, _3BIT, blockColors2, blockMask);
+          Blocks[i].Setup(blockWidth, blockHeight, blockData, 5, _3BIT, blockColors2, blockMask);
           ballRate = 12;
           plasmaLowHue = 10;
           plasmaHighHue = 64;
           break;
         case 3:
-          Blocks[i].Setup(blockWidth, blockHeight, blockData, 7, _3BIT, blockColors3, blockMask);
+          Blocks[i].Setup(blockWidth, blockHeight, blockData, 5, _3BIT, blockColors3, blockMask);
           ballRate = 9;
           plasmaLowHue = 205;
           plasmaHighHue = 255;
